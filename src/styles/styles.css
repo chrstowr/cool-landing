@@ -1,12 +1,6 @@
-nav .nav-wrapper {
-  max-width: 1000px;
-  padding: 0 16px;
-  margin: 0 auto;
-}
-
-section {
+/* section {
   padding: 48px 0;
-}
+} */
 
 section#footer {
   padding: 24px 0;
@@ -38,45 +32,6 @@ p {
   font-size: 32px;
 }
 
-.blogpost {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-}
-
-.blogpost .image-wrapper {
-  flex: 4;
-  margin: 0px auto;
-}
-
-.blogpost .content {
-  flex: 4;
-}
-
-.blogpost .footer {
-  display: flex;
-  flex-direction: column;
-}
-
-.blogpost .footer .row {
-  flex: 2;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.blogpost .footer .material-icons {
-  max-width: 24px;
-  margin: 0 8px;
-}
-.blogpost .footer-content {
-  display: flex;
-}
-
-.blogpost .read-more {
-  display: flex;
-  justify-content: center;
-}
-
 
 #hero {
   background-size: cover;
@@ -85,13 +40,12 @@ p {
 }
 
 #hero .container {
-  height: 90vh;
+  height: 100vh;
 }
 
 #features .material-icons {
   font-size: 50px;
 }
-
 
 .flex-dir-col {
   display: flex;
@@ -119,4 +73,10 @@ p {
 
 .teal.lighten-1{
   background-color: #005bbc !important;
+}
+
+.particles-bg-canvas-self{
+  background: #000;
+  height: 100vh;
+  width: 100wh;
 }
