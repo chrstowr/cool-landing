@@ -1,5 +1,5 @@
 # pull official base image
-FROM --platform=linux/arm/v7 node:buster
+FROM --platform=linux/arm/v7 node:bullseye
 
 # set working directory
 WORKDIR /app
