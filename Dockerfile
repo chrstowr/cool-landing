@@ -2,10 +2,10 @@
 FROM node:latest
 
 # set working directory
-WORKDIR /app
+WORKDIR /towrproject-web
 
 # add `/app/node_modules/.bin` to $PATH
-ENV PATH /app/node_modules/.bin:$PATH
+ENV PATH /towrproject-web/node_modules/.bin:$PATH
 
 # install app dependencies
 COPY package.json ./
