@@ -1,5 +1,5 @@
 # pull official base image
-FROM --platform=linux/arm/v7,linux/arm64/v8,linux/amd64 node:bullseye
+FROM --platform="linux/arm/v7","linux/arm64/v8","linux/amd64" node:latest
 
 # set working directory
 WORKDIR /app
