@@ -70,7 +70,7 @@ jobs:
             file: ./Dockerfile
             push: true
             tags: ${{ secrets.DOCKERHUB_USERNAME }}/towrproject-web:latest
-            platforms: linux/arm/v7
+            platforms: linux/arm/v7,linux/amd64
           
         - name: Run the image in a container
           uses: addnab/docker-run-action@v3
